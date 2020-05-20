@@ -1,0 +1,204 @@
+/* BASS STYLES */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  color: #737373;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+hr {
+  border-top: 1px dotted #e6e6e6;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-width: 5px;
+  width: 5%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a:hover {
+  color: #550a46;
+}
+
+footer {
+  background-color:  #b3b3b3;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+/* HEADER */
+
+header {
+  height: 800px;
+  background-image: url(../img/flower_v2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1199px 800px;
+  margin: auto 0 50px 0;
+  overflow: auto;
+}
+
+nav {
+  position: absolute;
+  margin: 0 20px auto 800px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: auto 0
+}
+
+nav ul li a {
+  color:  #737373;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 60px;
+}
+
+header h1 {
+  color: #0d0d0d;
+  font-family: 'Raleway', sans-serif;
+  font-size: 55px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  margin: 200px auto auto -15px;
+}
+
+header h2 {
+  color: #0d0d0d;
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: right;
+  position: absolute;
+  margin: 400px -20px auto 600px;
+  width: 600px;
+}
+
+.and {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.box {
+  color: #ffffff;
+  font-style: italic;
+  position: absolute;
+  margin: auto 10px auto -450px;
+}
+
+/* GRID */
+
+.top {
+  height: 1250px;
+  margin-top: 50px;
+}
+
+.middle {
+  height: 600px;
+  margin-top: 50px;
+}
+
+.bottom {
+  height: 400px;
+  margin-top: 50px;
+  background-color: #f2f2f2;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/* IMAGES */
+
+.work-image {
+  width: 600px;
+  display: inline-block;
+  border: 2px solid #b7b7b7;
+}
+
+.profile-image {
+  width: 55%;
+  height: auto;
+  display: inline-block;
+}
+
+/* MAIN */
+
+h2 {
+  color: #737373;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  padding-bottom: 30px;
+}
+
+h4 {
+  color: #666666;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+h3 {
+  color: #666666;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.work-block {
+  margin-bottom: 60px;
+}
+
+.text-block {
+  padding: 0 50px;
+  margin: 0 auto;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.about-me {
+  margin-top: 0;
+}
+
+.highlights {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.icon {
+  width: 30px;
+  height: auto;
+  padding: 25px;
+}
